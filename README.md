@@ -2,9 +2,7 @@
 <!-- KALILCYBER | CYBERSECURITY PROFILE -->
 
 <div align="center">
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=180&section=header&text=KALILCYBER&fontSize=60&fontColor=000000&animation=fadeIn"/>
-
 <a href="https://github.com/KalilCyber">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Initializing+System...;Access+Granted;Cybersecurity+Student;Ethical+Hacking+Enthusiast;Think+Like+An+Attacker;Defend+Like+An+Engineer" alt="Typing SVG"/>
 </a>
@@ -26,7 +24,7 @@ Username    : KalilCyber
 Location    : Brazil
 Education   : Cybersecurity Student
 Focus       : Information Security
-Interests   : Ethical Hacking & DevSecOps
+Interests   : SOC, Blue Team, Red Team, Ethical Hacking & DevSecOps
 Mission     : Protect Systems and Data
 Status      : Always Learning
 
@@ -39,15 +37,18 @@ Status      : Always Learning
 ## > cat about_me.txt
 
 Cybersecurity student passionate about technology,
-information security and vulnerability management.
+information security, monitoring and vulnerability management.
 
-My goal is to understand how systems can be compromised
-and how to build effective strategies to protect them.
+My goal is to understand how systems can be compromised,
+how threats can be detected and how to build effective
+strategies to protect organizations.
 
 - Vulnerability Assessment
 - Risk Analysis and Management
 - Application Security
-- Offensive and Defensive Security
+- SOC and Security Monitoring
+- Blue Team Operations
+- Red Team Operations and Learning
 - Secure Software Development
 - Cloud Security and DevSecOps
 
@@ -57,24 +58,41 @@ and how to build effective strategies to protect them.
 
 <div align="center">
 
-### Programming & Development
+### Current Skills
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,html,css,js&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=python,fastapi,html,css,js,linux,docker,sqlite,git,github,vscode&theme=dark"/>
 
-### Operating Systems & Infrastructure
+### Planned Learning (Holiday Roadmap)
 
-<img src="https://skillicons.dev/icons?i=linux,kali,windows,docker&theme=dark"/>
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-0D1117?style=for-the-badge&logo=kalilinux&logoColor=7DF9FF)
+![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=7DF9FF)
+![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logoColor=7DF9FF)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=FF7A00)
+![Metasploit](https://img.shields.io/badge/Metasploit-0D1117?style=for-the-badge&logoColor=00C2FF)
 
-### Databases & Development Tools
+### Blue Team / Monitoring
 
-<img src="https://skillicons.dev/icons?i=sqlite,git,github,vscode&theme=dark"/>
+![SOC](https://img.shields.io/badge/SOC-0D1117?style=for-the-badge&logoColor=00C2FF)
+![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=for-the-badge&logo=wazuh&logoColor=00C2FF)
+![Splunk](https://img.shields.io/badge/Splunk-0D1117?style=for-the-badge&logo=splunk&logoColor=7DF9FF)
+![Elastic SIEM](https://img.shields.io/badge/Elastic_SIEM-0D1117?style=for-the-badge&logo=elastic&logoColor=B388FF)
+![Suricata](https://img.shields.io/badge/Suricata-0D1117?style=for-the-badge&logoColor=FF4ECD)
+![Zeek](https://img.shields.io/badge/Zeek-0D1117?style=for-the-badge&logoColor=7DF9FF)
+
+### Red Team / Offensive Security
+
+![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-0D1117?style=for-the-badge&logoColor=FF4ECD)
+![Pentesting](https://img.shields.io/badge/Pentesting-0D1117?style=for-the-badge&logoColor=FF4ECD)
+![Web Security](https://img.shields.io/badge/Web_Security-0D1117?style=for-the-badge&logoColor=FF4ECD)
+![Recon](https://img.shields.io/badge/Recon-0D1117?style=for-the-badge&logoColor=7DF9FF)
+![Vulnerability Assessment](https://img.shields.io/badge/Vulnerability_Assessment-0D1117?style=for-the-badge&logoColor=00C2FF)
 
 ### Cybersecurity Knowledge
 
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=00FF41)
-![CVE](https://img.shields.io/badge/CVE-000000?style=for-the-badge&logoColor=00FF41)
-![CVSS](https://img.shields.io/badge/CVSS-000000?style=for-the-badge&logoColor=00FF41)
-![NIST](https://img.shields.io/badge/NIST-000000?style=for-the-badge&logoColor=00FF41)
+![OWASP](https://img.shields.io/badge/OWASP-0D1117?style=for-the-badge&logo=owasp&logoColor=7DF9FF)
+![CVE](https://img.shields.io/badge/CVE-0D1117?style=for-the-badge&logoColor=00C2FF)
+![CVSS](https://img.shields.io/badge/CVSS-0D1117?style=for-the-badge&logoColor=B388FF)
+![NIST](https://img.shields.io/badge/NIST-0D1117?style=for-the-badge&logoColor=7DF9FF)
 
 </div>
 
