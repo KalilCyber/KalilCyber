@@ -1,0 +1,557 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Matrix Shutdown — KalilCyber</title>
+<desc id="desc">Animated green digital rain, pulsing connection terminated message and blinking cursor.</desc>
+<defs>
+  <radialGradient id="bg"><stop offset="0" stop-color="#10371a"/><stop offset="1" stop-color="#020804"/></radialGradient>
+  <clipPath id="frame"><rect width="1200" height="180" rx="5"/></clipPath>
+  <filter id="glow" x="-25%" y="-100%" width="150%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  <pattern id="scan" width="4" height="5" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#000" stroke-opacity=".16"/></pattern>
+  <pattern id="staticRain" width="75" height="90" patternUnits="userSpaceOnUse"><g fill="#00ff41" font-family="monospace" font-size="15"><text x="10" y="18" opacity=".6">ﾊ</text><text x="10" y="38" opacity=".25">0</text><text x="35" y="45" opacity=".5">ﾐ</text><text x="35" y="65" opacity=".25">1</text><text x="60" y="24" opacity=".35">ﾈ</text><text x="60" y="44" opacity=".5">0</text></g></pattern>
+</defs>
+<style>
+.static-rain { display:none; }
+@media (prefers-reduced-motion: reduce) { .motion { display:none; } .static-rain { display:inline; } }
+</style>
+<rect width="1200" height="180" rx="5" fill="url(#bg)"/>
+<rect class="static-rain" width="1200" height="180" rx="5" fill="url(#staticRain)"/>
+<g class="motion" clip-path="url(#frame)" font-family="monospace" font-size="15" fill="#00ff41">
+<g transform="translate(12 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.10s" begin="-2.06s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.07">ﾐ</text><text y="-165" fill="#00ff41" opacity="0.07">ﾐ</text>
+<text y="35" fill="#00ff41" opacity="0.06">ﾘ</text><text y="-145" fill="#00ff41" opacity="0.06">ﾘ</text>
+<text y="55" fill="#00ff41" opacity="0.1">ﾎ</text><text y="-125" fill="#00ff41" opacity="0.1">ﾎ</text>
+<text y="75" fill="#00ff41" opacity="0.15">ﾎ</text><text y="-105" fill="#00ff41" opacity="0.15">ﾎ</text>
+<text y="95" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-85" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="115" fill="#00ff41" opacity="0.32">ｻ</text><text y="-65" fill="#00ff41" opacity="0.32">ｻ</text>
+<text y="135" fill="#00ff41" opacity="0.44">ﾍ</text><text y="-45" fill="#00ff41" opacity="0.44">ﾍ</text>
+<text y="155" fill="#00ff41" opacity="0.58">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.58">ﾌ</text>
+<text y="175" fill="#b7ffbf" opacity="0.76">ﾆ</text><text y="-5" fill="#b7ffbf" opacity="0.76">ﾆ</text>
+</g></g>
+<g transform="translate(37 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.75s" begin="-3.96s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">0</text><text y="-165" fill="#00ff41" opacity="0.22">0</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾎ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾎ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾊ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾊ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾐ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾐ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ｶ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ｶ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ﾐ</text><text y="-65" fill="#00ff41" opacity="0.07">ﾐ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾅ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾅ</text>
+<text y="155" fill="#00ff41" opacity="0.1">0</text><text y="-25" fill="#00ff41" opacity="0.1">0</text>
+<text y="175" fill="#00ff41" opacity="0.15">ﾆ</text><text y="-5" fill="#00ff41" opacity="0.15">ﾆ</text>
+</g></g>
+<g transform="translate(62 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.45s" begin="-1.36s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ｸ</text><text y="-165" fill="#00ff41" opacity="0.32">ｸ</text>
+<text y="35" fill="#00ff41" opacity="0.44">ｸ</text><text y="-145" fill="#00ff41" opacity="0.44">ｸ</text>
+<text y="55" fill="#00ff41" opacity="0.58">ｺ</text><text y="-125" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾇ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾇ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ﾊ</text><text y="-85" fill="#00ff41" opacity="0.07">ﾊ</text>
+<text y="115" fill="#00ff41" opacity="0.06">ｷ</text><text y="-65" fill="#00ff41" opacity="0.06">ｷ</text>
+<text y="135" fill="#00ff41" opacity="0.1">ﾊ</text><text y="-45" fill="#00ff41" opacity="0.1">ﾊ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾌ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾌ</text>
+</g></g>
+<g transform="translate(87 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.83s" begin="-2.21s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">0</text><text y="-165" fill="#00ff41" opacity="0.32">0</text>
+<text y="35" fill="#00ff41" opacity="0.44">ｸ</text><text y="-145" fill="#00ff41" opacity="0.44">ｸ</text>
+<text y="55" fill="#00ff41" opacity="0.58">ｸ</text><text y="-125" fill="#00ff41" opacity="0.58">ｸ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾅ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾅ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ｻ</text><text y="-85" fill="#00ff41" opacity="0.07">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.06">ﾊ</text><text y="-65" fill="#00ff41" opacity="0.06">ﾊ</text>
+<text y="135" fill="#00ff41" opacity="0.1">ｺ</text><text y="-45" fill="#00ff41" opacity="0.1">ｺ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾍ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾍ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾌ</text>
+</g></g>
+<g transform="translate(112 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.69s" begin="-0.66s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.07">ﾎ</text><text y="-165" fill="#00ff41" opacity="0.07">ﾎ</text>
+<text y="35" fill="#00ff41" opacity="0.06">ﾆ</text><text y="-145" fill="#00ff41" opacity="0.06">ﾆ</text>
+<text y="55" fill="#00ff41" opacity="0.1">ｺ</text><text y="-125" fill="#00ff41" opacity="0.1">ｺ</text>
+<text y="75" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-105" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="95" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-85" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="115" fill="#00ff41" opacity="0.32">ｻ</text><text y="-65" fill="#00ff41" opacity="0.32">ｻ</text>
+<text y="135" fill="#00ff41" opacity="0.44">ﾍ</text><text y="-45" fill="#00ff41" opacity="0.44">ﾍ</text>
+<text y="155" fill="#00ff41" opacity="0.58">ﾆ</text><text y="-25" fill="#00ff41" opacity="0.58">ﾆ</text>
+<text y="175" fill="#b7ffbf" opacity="0.76">ﾇ</text><text y="-5" fill="#b7ffbf" opacity="0.76">ﾇ</text>
+</g></g>
+<g transform="translate(137 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.78s" begin="-0.15s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.32">1</text><text y="-145" fill="#00ff41" opacity="0.32">1</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾇ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾇ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾐ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾐ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾎ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾎ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ｻ</text><text y="-65" fill="#00ff41" opacity="0.07">ｻ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾆ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾆ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾈ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾈ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ﾆ</text><text y="-5" fill="#00ff41" opacity="0.15">ﾆ</text>
+</g></g>
+<g transform="translate(162 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.31s" begin="-6.21s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ﾅ</text><text y="-165" fill="#00ff41" opacity="0.1">ﾅ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ﾆ</text><text y="-145" fill="#00ff41" opacity="0.15">ﾆ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾒ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾒ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ﾌ</text><text y="-85" fill="#00ff41" opacity="0.44">ﾌ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ｺ</text><text y="-65" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ｶ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ｶ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾇ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾇ</text>
+</g></g>
+<g transform="translate(187 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.53s" begin="-5.26s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.58">ｻ</text><text y="-165" fill="#00ff41" opacity="0.58">ｻ</text>
+<text y="35" fill="#b7ffbf" opacity="0.76">ﾃ</text><text y="-145" fill="#b7ffbf" opacity="0.76">ﾃ</text>
+<text y="55" fill="#00ff41" opacity="0.07">ｶ</text><text y="-125" fill="#00ff41" opacity="0.07">ｶ</text>
+<text y="75" fill="#00ff41" opacity="0.06">ﾒ</text><text y="-105" fill="#00ff41" opacity="0.06">ﾒ</text>
+<text y="95" fill="#00ff41" opacity="0.1">0</text><text y="-85" fill="#00ff41" opacity="0.1">0</text>
+<text y="115" fill="#00ff41" opacity="0.15">1</text><text y="-65" fill="#00ff41" opacity="0.15">1</text>
+<text y="135" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-45" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="155" fill="#00ff41" opacity="0.32">ﾎ</text><text y="-25" fill="#00ff41" opacity="0.32">ﾎ</text>
+<text y="175" fill="#00ff41" opacity="0.44">ﾅ</text><text y="-5" fill="#00ff41" opacity="0.44">ﾅ</text>
+</g></g>
+<g transform="translate(212 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.97s" begin="-6.47s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">ﾃ</text><text y="-165" fill="#00ff41" opacity="0.44">ﾃ</text>
+<text y="35" fill="#00ff41" opacity="0.58">ﾒ</text><text y="-145" fill="#00ff41" opacity="0.58">ﾒ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ﾆ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ﾆ</text>
+<text y="75" fill="#00ff41" opacity="0.07">ﾅ</text><text y="-105" fill="#00ff41" opacity="0.07">ﾅ</text>
+<text y="95" fill="#00ff41" opacity="0.06">ﾇ</text><text y="-85" fill="#00ff41" opacity="0.06">ﾇ</text>
+<text y="115" fill="#00ff41" opacity="0.1">ﾆ</text><text y="-65" fill="#00ff41" opacity="0.1">ﾆ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ｻ</text><text y="-45" fill="#00ff41" opacity="0.15">ｻ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="175" fill="#00ff41" opacity="0.32">1</text><text y="-5" fill="#00ff41" opacity="0.32">1</text>
+</g></g>
+<g transform="translate(237 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.09s" begin="-2.25s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ﾅ</text><text y="-165" fill="#00ff41" opacity="0.1">ﾅ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-145" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾅ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾅ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ｼ</text><text y="-85" fill="#00ff41" opacity="0.44">ｼ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ｻ</text><text y="-65" fill="#00ff41" opacity="0.58">ｻ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ﾆ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ﾆ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ﾊ</text><text y="-25" fill="#00ff41" opacity="0.07">ﾊ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾒ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾒ</text>
+</g></g>
+<g transform="translate(262 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.39s" begin="-2.74s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ｻ</text><text y="-165" fill="#00ff41" opacity="0.22">ｻ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾈ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾈ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾅ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾅ</text>
+<text y="75" fill="#00ff41" opacity="0.58">0</text><text y="-105" fill="#00ff41" opacity="0.58">0</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾊ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾊ</text>
+<text y="115" fill="#00ff41" opacity="0.07">0</text><text y="-65" fill="#00ff41" opacity="0.07">0</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾅ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾅ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾍ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾍ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.15">ﾌ</text>
+</g></g>
+<g transform="translate(287 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.52s" begin="-0.62s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾘ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾘ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾐ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾐ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾎ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾎ</text>
+<text y="75" fill="#00ff41" opacity="0.58">1</text><text y="-105" fill="#00ff41" opacity="0.58">1</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾌ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾌ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ﾒ</text><text y="-65" fill="#00ff41" opacity="0.07">ﾒ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ｸ</text><text y="-45" fill="#00ff41" opacity="0.06">ｸ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾈ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾈ</text>
+<text y="175" fill="#00ff41" opacity="0.15">0</text><text y="-5" fill="#00ff41" opacity="0.15">0</text>
+</g></g>
+<g transform="translate(312 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.92s" begin="-2.87s" repeatCount="indefinite"/>
+<text y="15" fill="#b7ffbf" opacity="0.76">ﾈ</text><text y="-165" fill="#b7ffbf" opacity="0.76">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-145" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="55" fill="#00ff41" opacity="0.06">ﾘ</text><text y="-125" fill="#00ff41" opacity="0.06">ﾘ</text>
+<text y="75" fill="#00ff41" opacity="0.1">ﾆ</text><text y="-105" fill="#00ff41" opacity="0.1">ﾆ</text>
+<text y="95" fill="#00ff41" opacity="0.15">ﾍ</text><text y="-85" fill="#00ff41" opacity="0.15">ﾍ</text>
+<text y="115" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-65" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="135" fill="#00ff41" opacity="0.32">ﾎ</text><text y="-45" fill="#00ff41" opacity="0.32">ﾎ</text>
+<text y="155" fill="#00ff41" opacity="0.44">ﾇ</text><text y="-25" fill="#00ff41" opacity="0.44">ﾇ</text>
+<text y="175" fill="#00ff41" opacity="0.58">ｶ</text><text y="-5" fill="#00ff41" opacity="0.58">ｶ</text>
+</g></g>
+<g transform="translate(337 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.95s" begin="-2.64s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.15">ﾍ</text><text y="-165" fill="#00ff41" opacity="0.15">ﾍ</text>
+<text y="35" fill="#00ff41" opacity="0.22">ｶ</text><text y="-145" fill="#00ff41" opacity="0.22">ｶ</text>
+<text y="55" fill="#00ff41" opacity="0.32">ﾇ</text><text y="-125" fill="#00ff41" opacity="0.32">ﾇ</text>
+<text y="75" fill="#00ff41" opacity="0.44">ｻ</text><text y="-105" fill="#00ff41" opacity="0.44">ｻ</text>
+<text y="95" fill="#00ff41" opacity="0.58">ｺ</text><text y="-85" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="115" fill="#b7ffbf" opacity="0.76">ﾈ</text><text y="-65" fill="#b7ffbf" opacity="0.76">ﾈ</text>
+<text y="135" fill="#00ff41" opacity="0.07">ﾇ</text><text y="-45" fill="#00ff41" opacity="0.07">ﾇ</text>
+<text y="155" fill="#00ff41" opacity="0.06">ﾃ</text><text y="-25" fill="#00ff41" opacity="0.06">ﾃ</text>
+<text y="175" fill="#00ff41" opacity="0.1">ｺ</text><text y="-5" fill="#00ff41" opacity="0.1">ｺ</text>
+</g></g>
+<g transform="translate(362 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.66s" begin="-0.39s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">1</text><text y="-165" fill="#00ff41" opacity="0.1">1</text>
+<text y="35" fill="#00ff41" opacity="0.15">ｸ</text><text y="-145" fill="#00ff41" opacity="0.15">ｸ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ｸ</text><text y="-125" fill="#00ff41" opacity="0.22">ｸ</text>
+<text y="75" fill="#00ff41" opacity="0.32">0</text><text y="-105" fill="#00ff41" opacity="0.32">0</text>
+<text y="95" fill="#00ff41" opacity="0.44">0</text><text y="-85" fill="#00ff41" opacity="0.44">0</text>
+<text y="115" fill="#00ff41" opacity="0.58">ﾇ</text><text y="-65" fill="#00ff41" opacity="0.58">ﾇ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ﾆ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ﾆ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ｷ</text><text y="-25" fill="#00ff41" opacity="0.07">ｷ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ｶ</text><text y="-5" fill="#00ff41" opacity="0.06">ｶ</text>
+</g></g>
+<g transform="translate(387 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.49s" begin="-5.02s" repeatCount="indefinite"/>
+<text y="15" fill="#b7ffbf" opacity="0.76">ﾅ</text><text y="-165" fill="#b7ffbf" opacity="0.76">ﾅ</text>
+<text y="35" fill="#00ff41" opacity="0.07">ﾍ</text><text y="-145" fill="#00ff41" opacity="0.07">ﾍ</text>
+<text y="55" fill="#00ff41" opacity="0.06">ﾎ</text><text y="-125" fill="#00ff41" opacity="0.06">ﾎ</text>
+<text y="75" fill="#00ff41" opacity="0.1">ｼ</text><text y="-105" fill="#00ff41" opacity="0.1">ｼ</text>
+<text y="95" fill="#00ff41" opacity="0.15">ﾈ</text><text y="-85" fill="#00ff41" opacity="0.15">ﾈ</text>
+<text y="115" fill="#00ff41" opacity="0.22">ﾍ</text><text y="-65" fill="#00ff41" opacity="0.22">ﾍ</text>
+<text y="135" fill="#00ff41" opacity="0.32">ﾇ</text><text y="-45" fill="#00ff41" opacity="0.32">ﾇ</text>
+<text y="155" fill="#00ff41" opacity="0.44">ﾃ</text><text y="-25" fill="#00ff41" opacity="0.44">ﾃ</text>
+<text y="175" fill="#00ff41" opacity="0.58">ｻ</text><text y="-5" fill="#00ff41" opacity="0.58">ｻ</text>
+</g></g>
+<g transform="translate(412 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.22s" begin="-2.85s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾊ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾊ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾌ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾌ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ｺ</text><text y="-125" fill="#00ff41" opacity="0.44">ｺ</text>
+<text y="75" fill="#00ff41" opacity="0.58">1</text><text y="-105" fill="#00ff41" opacity="0.58">1</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾃ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾃ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ｼ</text><text y="-65" fill="#00ff41" opacity="0.07">ｼ</text>
+<text y="135" fill="#00ff41" opacity="0.06">1</text><text y="-45" fill="#00ff41" opacity="0.06">1</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾌ</text>
+<text y="175" fill="#00ff41" opacity="0.15">1</text><text y="-5" fill="#00ff41" opacity="0.15">1</text>
+</g></g>
+<g transform="translate(437 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.50s" begin="-4.15s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾆ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾆ</text>
+<text y="35" fill="#00ff41" opacity="0.32">0</text><text y="-145" fill="#00ff41" opacity="0.32">0</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾈ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾈ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾇ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾇ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾃ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾃ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ﾇ</text><text y="-65" fill="#00ff41" opacity="0.07">ﾇ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾈ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾈ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ｼ</text><text y="-25" fill="#00ff41" opacity="0.1">ｼ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ｼ</text><text y="-5" fill="#00ff41" opacity="0.15">ｼ</text>
+</g></g>
+<g transform="translate(462 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.24s" begin="-2.23s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.58">ﾊ</text><text y="-165" fill="#00ff41" opacity="0.58">ﾊ</text>
+<text y="35" fill="#b7ffbf" opacity="0.76">ｺ</text><text y="-145" fill="#b7ffbf" opacity="0.76">ｺ</text>
+<text y="55" fill="#00ff41" opacity="0.07">ｶ</text><text y="-125" fill="#00ff41" opacity="0.07">ｶ</text>
+<text y="75" fill="#00ff41" opacity="0.06">ｼ</text><text y="-105" fill="#00ff41" opacity="0.06">ｼ</text>
+<text y="95" fill="#00ff41" opacity="0.1">ｸ</text><text y="-85" fill="#00ff41" opacity="0.1">ｸ</text>
+<text y="115" fill="#00ff41" opacity="0.15">ｼ</text><text y="-65" fill="#00ff41" opacity="0.15">ｼ</text>
+<text y="135" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-45" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="155" fill="#00ff41" opacity="0.32">ﾅ</text><text y="-25" fill="#00ff41" opacity="0.32">ﾅ</text>
+<text y="175" fill="#00ff41" opacity="0.44">ﾆ</text><text y="-5" fill="#00ff41" opacity="0.44">ﾆ</text>
+</g></g>
+<g transform="translate(487 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.80s" begin="-6.35s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ﾅ</text><text y="-165" fill="#00ff41" opacity="0.32">ﾅ</text>
+<text y="35" fill="#00ff41" opacity="0.44">ｼ</text><text y="-145" fill="#00ff41" opacity="0.44">ｼ</text>
+<text y="55" fill="#00ff41" opacity="0.58">ｷ</text><text y="-125" fill="#00ff41" opacity="0.58">ｷ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾇ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾇ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ﾆ</text><text y="-85" fill="#00ff41" opacity="0.07">ﾆ</text>
+<text y="115" fill="#00ff41" opacity="0.06">ﾅ</text><text y="-65" fill="#00ff41" opacity="0.06">ﾅ</text>
+<text y="135" fill="#00ff41" opacity="0.1">ﾐ</text><text y="-45" fill="#00ff41" opacity="0.1">ﾐ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾇ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾇ</text>
+</g></g>
+<g transform="translate(512 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.95s" begin="-5.67s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾘ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾘ</text>
+<text y="35" fill="#00ff41" opacity="0.32">0</text><text y="-145" fill="#00ff41" opacity="0.32">0</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾊ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾊ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾅ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾅ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ｷ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ｷ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ｻ</text><text y="-65" fill="#00ff41" opacity="0.07">ｻ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾌ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ｼ</text><text y="-25" fill="#00ff41" opacity="0.1">ｼ</text>
+<text y="175" fill="#00ff41" opacity="0.15">0</text><text y="-5" fill="#00ff41" opacity="0.15">0</text>
+</g></g>
+<g transform="translate(537 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.08s" begin="-0.80s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.07">ﾍ</text><text y="-165" fill="#00ff41" opacity="0.07">ﾍ</text>
+<text y="35" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-145" fill="#00ff41" opacity="0.06">ﾌ</text>
+<text y="55" fill="#00ff41" opacity="0.1">ﾃ</text><text y="-125" fill="#00ff41" opacity="0.1">ﾃ</text>
+<text y="75" fill="#00ff41" opacity="0.15">ﾐ</text><text y="-105" fill="#00ff41" opacity="0.15">ﾐ</text>
+<text y="95" fill="#00ff41" opacity="0.22">ﾎ</text><text y="-85" fill="#00ff41" opacity="0.22">ﾎ</text>
+<text y="115" fill="#00ff41" opacity="0.32">ﾒ</text><text y="-65" fill="#00ff41" opacity="0.32">ﾒ</text>
+<text y="135" fill="#00ff41" opacity="0.44">ﾌ</text><text y="-45" fill="#00ff41" opacity="0.44">ﾌ</text>
+<text y="155" fill="#00ff41" opacity="0.58">ﾍ</text><text y="-25" fill="#00ff41" opacity="0.58">ﾍ</text>
+<text y="175" fill="#b7ffbf" opacity="0.76">ﾃ</text><text y="-5" fill="#b7ffbf" opacity="0.76">ﾃ</text>
+</g></g>
+<g transform="translate(562 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.99s" begin="-3.37s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.07">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.07">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.06">ﾐ</text><text y="-145" fill="#00ff41" opacity="0.06">ﾐ</text>
+<text y="55" fill="#00ff41" opacity="0.1">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.1">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.15">ﾐ</text><text y="-105" fill="#00ff41" opacity="0.15">ﾐ</text>
+<text y="95" fill="#00ff41" opacity="0.22">ｻ</text><text y="-85" fill="#00ff41" opacity="0.22">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.32">ｼ</text><text y="-65" fill="#00ff41" opacity="0.32">ｼ</text>
+<text y="135" fill="#00ff41" opacity="0.44">ﾐ</text><text y="-45" fill="#00ff41" opacity="0.44">ﾐ</text>
+<text y="155" fill="#00ff41" opacity="0.58">1</text><text y="-25" fill="#00ff41" opacity="0.58">1</text>
+<text y="175" fill="#b7ffbf" opacity="0.76">ｸ</text><text y="-5" fill="#b7ffbf" opacity="0.76">ｸ</text>
+</g></g>
+<g transform="translate(587 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.63s" begin="-1.23s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ﾇ</text><text y="-165" fill="#00ff41" opacity="0.1">ﾇ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ｷ</text><text y="-145" fill="#00ff41" opacity="0.15">ｷ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾍ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾍ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ﾊ</text><text y="-85" fill="#00ff41" opacity="0.44">ﾊ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ｶ</text><text y="-65" fill="#00ff41" opacity="0.58">ｶ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ｷ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ｷ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ｼ</text><text y="-25" fill="#00ff41" opacity="0.07">ｼ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾒ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾒ</text>
+</g></g>
+<g transform="translate(612 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.68s" begin="-0.06s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ｻ</text><text y="-165" fill="#00ff41" opacity="0.32">ｻ</text>
+<text y="35" fill="#00ff41" opacity="0.44">0</text><text y="-145" fill="#00ff41" opacity="0.44">0</text>
+<text y="55" fill="#00ff41" opacity="0.58">1</text><text y="-125" fill="#00ff41" opacity="0.58">1</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾐ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾐ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ﾘ</text><text y="-85" fill="#00ff41" opacity="0.07">ﾘ</text>
+<text y="115" fill="#00ff41" opacity="0.06">0</text><text y="-65" fill="#00ff41" opacity="0.06">0</text>
+<text y="135" fill="#00ff41" opacity="0.1">ｶ</text><text y="-45" fill="#00ff41" opacity="0.1">ｶ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾐ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾐ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾐ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾐ</text>
+</g></g>
+<g transform="translate(637 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.48s" begin="-3.74s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">ｷ</text><text y="-165" fill="#00ff41" opacity="0.44">ｷ</text>
+<text y="35" fill="#00ff41" opacity="0.58">ﾅ</text><text y="-145" fill="#00ff41" opacity="0.58">ﾅ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ﾎ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ﾎ</text>
+<text y="75" fill="#00ff41" opacity="0.07">ﾎ</text><text y="-105" fill="#00ff41" opacity="0.07">ﾎ</text>
+<text y="95" fill="#00ff41" opacity="0.06">1</text><text y="-85" fill="#00ff41" opacity="0.06">1</text>
+<text y="115" fill="#00ff41" opacity="0.1">ｺ</text><text y="-65" fill="#00ff41" opacity="0.1">ｺ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ｷ</text><text y="-45" fill="#00ff41" opacity="0.15">ｷ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ﾎ</text><text y="-25" fill="#00ff41" opacity="0.22">ﾎ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ﾃ</text><text y="-5" fill="#00ff41" opacity="0.32">ﾃ</text>
+</g></g>
+<g transform="translate(662 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.10s" begin="-2.60s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ｸ</text><text y="-165" fill="#00ff41" opacity="0.1">ｸ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-145" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ｺ</text><text y="-105" fill="#00ff41" opacity="0.32">ｺ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ｶ</text><text y="-85" fill="#00ff41" opacity="0.44">ｶ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ｸ</text><text y="-65" fill="#00ff41" opacity="0.58">ｸ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">1</text><text y="-45" fill="#b7ffbf" opacity="0.76">1</text>
+<text y="155" fill="#00ff41" opacity="0.07">ｻ</text><text y="-25" fill="#00ff41" opacity="0.07">ｻ</text>
+<text y="175" fill="#00ff41" opacity="0.06">0</text><text y="-5" fill="#00ff41" opacity="0.06">0</text>
+</g></g>
+<g transform="translate(687 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.78s" begin="-1.58s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ｶ</text><text y="-165" fill="#00ff41" opacity="0.1">ｶ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ｻ</text><text y="-145" fill="#00ff41" opacity="0.15">ｻ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ｷ</text><text y="-125" fill="#00ff41" opacity="0.22">ｷ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾍ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾍ</text>
+<text y="95" fill="#00ff41" opacity="0.44">0</text><text y="-85" fill="#00ff41" opacity="0.44">0</text>
+<text y="115" fill="#00ff41" opacity="0.58">ﾌ</text><text y="-65" fill="#00ff41" opacity="0.58">ﾌ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ｷ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ｷ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ﾃ</text><text y="-25" fill="#00ff41" opacity="0.07">ﾃ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾌ</text>
+</g></g>
+<g transform="translate(712 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.84s" begin="-3.82s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.15">ﾎ</text><text y="-165" fill="#00ff41" opacity="0.15">ﾎ</text>
+<text y="35" fill="#00ff41" opacity="0.22">ﾐ</text><text y="-145" fill="#00ff41" opacity="0.22">ﾐ</text>
+<text y="55" fill="#00ff41" opacity="0.32">ﾐ</text><text y="-125" fill="#00ff41" opacity="0.32">ﾐ</text>
+<text y="75" fill="#00ff41" opacity="0.44">1</text><text y="-105" fill="#00ff41" opacity="0.44">1</text>
+<text y="95" fill="#00ff41" opacity="0.58">ﾈ</text><text y="-85" fill="#00ff41" opacity="0.58">ﾈ</text>
+<text y="115" fill="#b7ffbf" opacity="0.76">ﾇ</text><text y="-65" fill="#b7ffbf" opacity="0.76">ﾇ</text>
+<text y="135" fill="#00ff41" opacity="0.07">ｸ</text><text y="-45" fill="#00ff41" opacity="0.07">ｸ</text>
+<text y="155" fill="#00ff41" opacity="0.06">ﾎ</text><text y="-25" fill="#00ff41" opacity="0.06">ﾎ</text>
+<text y="175" fill="#00ff41" opacity="0.1">ｶ</text><text y="-5" fill="#00ff41" opacity="0.1">ｶ</text>
+</g></g>
+<g transform="translate(737 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.72s" begin="-2.15s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">ｻ</text><text y="-165" fill="#00ff41" opacity="0.44">ｻ</text>
+<text y="35" fill="#00ff41" opacity="0.58">ｺ</text><text y="-145" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ｺ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ｺ</text>
+<text y="75" fill="#00ff41" opacity="0.07">ﾘ</text><text y="-105" fill="#00ff41" opacity="0.07">ﾘ</text>
+<text y="95" fill="#00ff41" opacity="0.06">ｻ</text><text y="-85" fill="#00ff41" opacity="0.06">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.1">ﾘ</text><text y="-65" fill="#00ff41" opacity="0.1">ﾘ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ﾈ</text><text y="-45" fill="#00ff41" opacity="0.15">ﾈ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ｼ</text><text y="-25" fill="#00ff41" opacity="0.22">ｼ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.32">ﾌ</text>
+</g></g>
+<g transform="translate(762 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.72s" begin="-2.67s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-165" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="35" fill="#00ff41" opacity="0.06">ｺ</text><text y="-145" fill="#00ff41" opacity="0.06">ｺ</text>
+<text y="55" fill="#00ff41" opacity="0.1">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.1">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.15">ﾈ</text><text y="-105" fill="#00ff41" opacity="0.15">ﾈ</text>
+<text y="95" fill="#00ff41" opacity="0.22">ﾘ</text><text y="-85" fill="#00ff41" opacity="0.22">ﾘ</text>
+<text y="115" fill="#00ff41" opacity="0.32">0</text><text y="-65" fill="#00ff41" opacity="0.32">0</text>
+<text y="135" fill="#00ff41" opacity="0.44">0</text><text y="-45" fill="#00ff41" opacity="0.44">0</text>
+<text y="155" fill="#00ff41" opacity="0.58">ﾒ</text><text y="-25" fill="#00ff41" opacity="0.58">ﾒ</text>
+<text y="175" fill="#b7ffbf" opacity="0.76">ﾌ</text><text y="-5" fill="#b7ffbf" opacity="0.76">ﾌ</text>
+</g></g>
+<g transform="translate(787 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.61s" begin="-1.48s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.44">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.58">ﾍ</text><text y="-145" fill="#00ff41" opacity="0.58">ﾍ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ﾊ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ﾊ</text>
+<text y="75" fill="#00ff41" opacity="0.07">ｼ</text><text y="-105" fill="#00ff41" opacity="0.07">ｼ</text>
+<text y="95" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-85" fill="#00ff41" opacity="0.06">ﾌ</text>
+<text y="115" fill="#00ff41" opacity="0.1">1</text><text y="-65" fill="#00ff41" opacity="0.1">1</text>
+<text y="135" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-45" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-25" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ｷ</text><text y="-5" fill="#00ff41" opacity="0.32">ｷ</text>
+</g></g>
+<g transform="translate(812 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.26s" begin="-4.72s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">1</text><text y="-165" fill="#00ff41" opacity="0.44">1</text>
+<text y="35" fill="#00ff41" opacity="0.58">0</text><text y="-145" fill="#00ff41" opacity="0.58">0</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ﾘ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ﾘ</text>
+<text y="75" fill="#00ff41" opacity="0.07">ﾆ</text><text y="-105" fill="#00ff41" opacity="0.07">ﾆ</text>
+<text y="95" fill="#00ff41" opacity="0.06">1</text><text y="-85" fill="#00ff41" opacity="0.06">1</text>
+<text y="115" fill="#00ff41" opacity="0.1">ﾘ</text><text y="-65" fill="#00ff41" opacity="0.1">ﾘ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-45" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-25" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ｺ</text><text y="-5" fill="#00ff41" opacity="0.32">ｺ</text>
+</g></g>
+<g transform="translate(837 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.57s" begin="-2.36s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾒ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾒ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ｷ</text><text y="-125" fill="#00ff41" opacity="0.44">ｷ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾃ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾃ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ｸ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ｸ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ｸ</text><text y="-65" fill="#00ff41" opacity="0.07">ｸ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ﾅ</text><text y="-45" fill="#00ff41" opacity="0.06">ﾅ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾅ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾅ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.15">ﾌ</text>
+</g></g>
+<g transform="translate(862 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.01s" begin="-6.29s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ﾃ</text><text y="-165" fill="#00ff41" opacity="0.32">ﾃ</text>
+<text y="35" fill="#00ff41" opacity="0.44">ｼ</text><text y="-145" fill="#00ff41" opacity="0.44">ｼ</text>
+<text y="55" fill="#00ff41" opacity="0.58">ｻ</text><text y="-125" fill="#00ff41" opacity="0.58">ｻ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾈ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾈ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ﾆ</text><text y="-85" fill="#00ff41" opacity="0.07">ﾆ</text>
+<text y="115" fill="#00ff41" opacity="0.06">0</text><text y="-65" fill="#00ff41" opacity="0.06">0</text>
+<text y="135" fill="#00ff41" opacity="0.1">ｸ</text><text y="-45" fill="#00ff41" opacity="0.1">ｸ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ｻ</text><text y="-5" fill="#00ff41" opacity="0.22">ｻ</text>
+</g></g>
+<g transform="translate(887 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="6.94s" begin="-4.44s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ｶ</text><text y="-165" fill="#00ff41" opacity="0.1">ｶ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ｸ</text><text y="-145" fill="#00ff41" opacity="0.15">ｸ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾒ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾒ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ﾈ</text><text y="-85" fill="#00ff41" opacity="0.44">ﾈ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ﾐ</text><text y="-65" fill="#00ff41" opacity="0.58">ﾐ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">0</text><text y="-45" fill="#b7ffbf" opacity="0.76">0</text>
+<text y="155" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-25" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾃ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾃ</text>
+</g></g>
+<g transform="translate(912 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.17s" begin="-4.99s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ﾍ</text><text y="-165" fill="#00ff41" opacity="0.32">ﾍ</text>
+<text y="35" fill="#00ff41" opacity="0.44">1</text><text y="-145" fill="#00ff41" opacity="0.44">1</text>
+<text y="55" fill="#00ff41" opacity="0.58">ｺ</text><text y="-125" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ｺ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ｺ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-85" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="115" fill="#00ff41" opacity="0.06">ﾇ</text><text y="-65" fill="#00ff41" opacity="0.06">ﾇ</text>
+<text y="135" fill="#00ff41" opacity="0.1">ｼ</text><text y="-45" fill="#00ff41" opacity="0.1">ｼ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾇ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾇ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾐ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾐ</text>
+</g></g>
+<g transform="translate(937 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.96s" begin="-2.90s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">ﾌ</text><text y="-165" fill="#00ff41" opacity="0.44">ﾌ</text>
+<text y="35" fill="#00ff41" opacity="0.58">ﾒ</text><text y="-145" fill="#00ff41" opacity="0.58">ﾒ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ｶ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ｶ</text>
+<text y="75" fill="#00ff41" opacity="0.07">1</text><text y="-105" fill="#00ff41" opacity="0.07">1</text>
+<text y="95" fill="#00ff41" opacity="0.06">ﾍ</text><text y="-85" fill="#00ff41" opacity="0.06">ﾍ</text>
+<text y="115" fill="#00ff41" opacity="0.1">ﾃ</text><text y="-65" fill="#00ff41" opacity="0.1">ﾃ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ｼ</text><text y="-45" fill="#00ff41" opacity="0.15">ｼ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ｶ</text><text y="-25" fill="#00ff41" opacity="0.22">ｶ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ｶ</text><text y="-5" fill="#00ff41" opacity="0.32">ｶ</text>
+</g></g>
+<g transform="translate(962 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.87s" begin="-2.10s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.58">ﾃ</text><text y="-165" fill="#00ff41" opacity="0.58">ﾃ</text>
+<text y="35" fill="#b7ffbf" opacity="0.76">0</text><text y="-145" fill="#b7ffbf" opacity="0.76">0</text>
+<text y="55" fill="#00ff41" opacity="0.07">ﾎ</text><text y="-125" fill="#00ff41" opacity="0.07">ﾎ</text>
+<text y="75" fill="#00ff41" opacity="0.06">ﾆ</text><text y="-105" fill="#00ff41" opacity="0.06">ﾆ</text>
+<text y="95" fill="#00ff41" opacity="0.1">ｻ</text><text y="-85" fill="#00ff41" opacity="0.1">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.15">ｸ</text><text y="-65" fill="#00ff41" opacity="0.15">ｸ</text>
+<text y="135" fill="#00ff41" opacity="0.22">ﾌ</text><text y="-45" fill="#00ff41" opacity="0.22">ﾌ</text>
+<text y="155" fill="#00ff41" opacity="0.32">ｼ</text><text y="-25" fill="#00ff41" opacity="0.32">ｼ</text>
+<text y="175" fill="#00ff41" opacity="0.44">ﾇ</text><text y="-5" fill="#00ff41" opacity="0.44">ﾇ</text>
+</g></g>
+<g transform="translate(987 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.72s" begin="-1.17s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.15">ｼ</text><text y="-165" fill="#00ff41" opacity="0.15">ｼ</text>
+<text y="35" fill="#00ff41" opacity="0.22">0</text><text y="-145" fill="#00ff41" opacity="0.22">0</text>
+<text y="55" fill="#00ff41" opacity="0.32">ﾐ</text><text y="-125" fill="#00ff41" opacity="0.32">ﾐ</text>
+<text y="75" fill="#00ff41" opacity="0.44">ﾇ</text><text y="-105" fill="#00ff41" opacity="0.44">ﾇ</text>
+<text y="95" fill="#00ff41" opacity="0.58">0</text><text y="-85" fill="#00ff41" opacity="0.58">0</text>
+<text y="115" fill="#b7ffbf" opacity="0.76">ｸ</text><text y="-65" fill="#b7ffbf" opacity="0.76">ｸ</text>
+<text y="135" fill="#00ff41" opacity="0.07">ﾊ</text><text y="-45" fill="#00ff41" opacity="0.07">ﾊ</text>
+<text y="155" fill="#00ff41" opacity="0.06">ｸ</text><text y="-25" fill="#00ff41" opacity="0.06">ｸ</text>
+<text y="175" fill="#00ff41" opacity="0.1">ｶ</text><text y="-5" fill="#00ff41" opacity="0.1">ｶ</text>
+</g></g>
+<g transform="translate(1012 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.51s" begin="-0.70s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾐ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾐ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ｷ</text><text y="-125" fill="#00ff41" opacity="0.44">ｷ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾆ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾆ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ﾐ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ﾐ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ﾊ</text><text y="-65" fill="#00ff41" opacity="0.07">ﾊ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ｺ</text><text y="-45" fill="#00ff41" opacity="0.06">ｺ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾒ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾒ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ﾎ</text><text y="-5" fill="#00ff41" opacity="0.15">ﾎ</text>
+</g></g>
+<g transform="translate(1037 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.87s" begin="-0.57s" repeatCount="indefinite"/>
+<text y="15" fill="#b7ffbf" opacity="0.76">ﾆ</text><text y="-165" fill="#b7ffbf" opacity="0.76">ﾆ</text>
+<text y="35" fill="#00ff41" opacity="0.07">ﾐ</text><text y="-145" fill="#00ff41" opacity="0.07">ﾐ</text>
+<text y="55" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-125" fill="#00ff41" opacity="0.06">ﾌ</text>
+<text y="75" fill="#00ff41" opacity="0.1">ﾇ</text><text y="-105" fill="#00ff41" opacity="0.1">ﾇ</text>
+<text y="95" fill="#00ff41" opacity="0.15">ﾘ</text><text y="-85" fill="#00ff41" opacity="0.15">ﾘ</text>
+<text y="115" fill="#00ff41" opacity="0.22">ｸ</text><text y="-65" fill="#00ff41" opacity="0.22">ｸ</text>
+<text y="135" fill="#00ff41" opacity="0.32">ﾅ</text><text y="-45" fill="#00ff41" opacity="0.32">ﾅ</text>
+<text y="155" fill="#00ff41" opacity="0.44">ﾍ</text><text y="-25" fill="#00ff41" opacity="0.44">ﾍ</text>
+<text y="175" fill="#00ff41" opacity="0.58">ｸ</text><text y="-5" fill="#00ff41" opacity="0.58">ｸ</text>
+</g></g>
+<g transform="translate(1062 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="3.95s" begin="-3.07s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.1">ﾆ</text><text y="-165" fill="#00ff41" opacity="0.1">ﾆ</text>
+<text y="35" fill="#00ff41" opacity="0.15">ｶ</text><text y="-145" fill="#00ff41" opacity="0.15">ｶ</text>
+<text y="55" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.22">ﾒ</text>
+<text y="75" fill="#00ff41" opacity="0.32">ﾘ</text><text y="-105" fill="#00ff41" opacity="0.32">ﾘ</text>
+<text y="95" fill="#00ff41" opacity="0.44">ｼ</text><text y="-85" fill="#00ff41" opacity="0.44">ｼ</text>
+<text y="115" fill="#00ff41" opacity="0.58">ｷ</text><text y="-65" fill="#00ff41" opacity="0.58">ｷ</text>
+<text y="135" fill="#b7ffbf" opacity="0.76">ｻ</text><text y="-45" fill="#b7ffbf" opacity="0.76">ｻ</text>
+<text y="155" fill="#00ff41" opacity="0.07">ﾇ</text><text y="-25" fill="#00ff41" opacity="0.07">ﾇ</text>
+<text y="175" fill="#00ff41" opacity="0.06">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.06">ﾌ</text>
+</g></g>
+<g transform="translate(1087 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.99s" begin="-4.53s" repeatCount="indefinite"/>
+<text y="15" fill="#b7ffbf" opacity="0.76">ｺ</text><text y="-165" fill="#b7ffbf" opacity="0.76">ｺ</text>
+<text y="35" fill="#00ff41" opacity="0.07">ｷ</text><text y="-145" fill="#00ff41" opacity="0.07">ｷ</text>
+<text y="55" fill="#00ff41" opacity="0.06">ｼ</text><text y="-125" fill="#00ff41" opacity="0.06">ｼ</text>
+<text y="75" fill="#00ff41" opacity="0.1">ﾃ</text><text y="-105" fill="#00ff41" opacity="0.1">ﾃ</text>
+<text y="95" fill="#00ff41" opacity="0.15">ﾅ</text><text y="-85" fill="#00ff41" opacity="0.15">ﾅ</text>
+<text y="115" fill="#00ff41" opacity="0.22">ﾘ</text><text y="-65" fill="#00ff41" opacity="0.22">ﾘ</text>
+<text y="135" fill="#00ff41" opacity="0.32">ｸ</text><text y="-45" fill="#00ff41" opacity="0.32">ｸ</text>
+<text y="155" fill="#00ff41" opacity="0.44">ｸ</text><text y="-25" fill="#00ff41" opacity="0.44">ｸ</text>
+<text y="175" fill="#00ff41" opacity="0.58">ｻ</text><text y="-5" fill="#00ff41" opacity="0.58">ｻ</text>
+</g></g>
+<g transform="translate(1112 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="7.09s" begin="-4.18s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.32">ﾅ</text><text y="-145" fill="#00ff41" opacity="0.32">ﾅ</text>
+<text y="55" fill="#00ff41" opacity="0.44">ﾍ</text><text y="-125" fill="#00ff41" opacity="0.44">ﾍ</text>
+<text y="75" fill="#00ff41" opacity="0.58">ﾈ</text><text y="-105" fill="#00ff41" opacity="0.58">ﾈ</text>
+<text y="95" fill="#b7ffbf" opacity="0.76">ｻ</text><text y="-85" fill="#b7ffbf" opacity="0.76">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.07">ﾒ</text><text y="-65" fill="#00ff41" opacity="0.07">ﾒ</text>
+<text y="135" fill="#00ff41" opacity="0.06">ｷ</text><text y="-45" fill="#00ff41" opacity="0.06">ｷ</text>
+<text y="155" fill="#00ff41" opacity="0.1">ﾐ</text><text y="-25" fill="#00ff41" opacity="0.1">ﾐ</text>
+<text y="175" fill="#00ff41" opacity="0.15">ｷ</text><text y="-5" fill="#00ff41" opacity="0.15">ｷ</text>
+</g></g>
+<g transform="translate(1137 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.72s" begin="-4.09s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.32">ﾈ</text><text y="-165" fill="#00ff41" opacity="0.32">ﾈ</text>
+<text y="35" fill="#00ff41" opacity="0.44">ﾌ</text><text y="-145" fill="#00ff41" opacity="0.44">ﾌ</text>
+<text y="55" fill="#00ff41" opacity="0.58">ﾒ</text><text y="-125" fill="#00ff41" opacity="0.58">ﾒ</text>
+<text y="75" fill="#b7ffbf" opacity="0.76">ﾘ</text><text y="-105" fill="#b7ffbf" opacity="0.76">ﾘ</text>
+<text y="95" fill="#00ff41" opacity="0.07">ｷ</text><text y="-85" fill="#00ff41" opacity="0.07">ｷ</text>
+<text y="115" fill="#00ff41" opacity="0.06">ﾈ</text><text y="-65" fill="#00ff41" opacity="0.06">ﾈ</text>
+<text y="135" fill="#00ff41" opacity="0.1">ﾌ</text><text y="-45" fill="#00ff41" opacity="0.1">ﾌ</text>
+<text y="155" fill="#00ff41" opacity="0.15">ﾐ</text><text y="-25" fill="#00ff41" opacity="0.15">ﾐ</text>
+<text y="175" fill="#00ff41" opacity="0.22">ﾒ</text><text y="-5" fill="#00ff41" opacity="0.22">ﾒ</text>
+</g></g>
+<g transform="translate(1162 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="4.83s" begin="-2.21s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.58">ｺ</text><text y="-165" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="35" fill="#b7ffbf" opacity="0.76">0</text><text y="-145" fill="#b7ffbf" opacity="0.76">0</text>
+<text y="55" fill="#00ff41" opacity="0.07">ﾌ</text><text y="-125" fill="#00ff41" opacity="0.07">ﾌ</text>
+<text y="75" fill="#00ff41" opacity="0.06">ｷ</text><text y="-105" fill="#00ff41" opacity="0.06">ｷ</text>
+<text y="95" fill="#00ff41" opacity="0.1">ｻ</text><text y="-85" fill="#00ff41" opacity="0.1">ｻ</text>
+<text y="115" fill="#00ff41" opacity="0.15">ｷ</text><text y="-65" fill="#00ff41" opacity="0.15">ｷ</text>
+<text y="135" fill="#00ff41" opacity="0.22">ﾐ</text><text y="-45" fill="#00ff41" opacity="0.22">ﾐ</text>
+<text y="155" fill="#00ff41" opacity="0.32">ﾆ</text><text y="-25" fill="#00ff41" opacity="0.32">ﾆ</text>
+<text y="175" fill="#00ff41" opacity="0.44">ﾌ</text><text y="-5" fill="#00ff41" opacity="0.44">ﾌ</text>
+</g></g>
+<g transform="translate(1187 0)"><g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 180" dur="5.77s" begin="-2.45s" repeatCount="indefinite"/>
+<text y="15" fill="#00ff41" opacity="0.44">1</text><text y="-165" fill="#00ff41" opacity="0.44">1</text>
+<text y="35" fill="#00ff41" opacity="0.58">ｺ</text><text y="-145" fill="#00ff41" opacity="0.58">ｺ</text>
+<text y="55" fill="#b7ffbf" opacity="0.76">ｼ</text><text y="-125" fill="#b7ffbf" opacity="0.76">ｼ</text>
+<text y="75" fill="#00ff41" opacity="0.07">0</text><text y="-105" fill="#00ff41" opacity="0.07">0</text>
+<text y="95" fill="#00ff41" opacity="0.06">ﾒ</text><text y="-85" fill="#00ff41" opacity="0.06">ﾒ</text>
+<text y="115" fill="#00ff41" opacity="0.1">ﾌ</text><text y="-65" fill="#00ff41" opacity="0.1">ﾌ</text>
+<text y="135" fill="#00ff41" opacity="0.15">ﾒ</text><text y="-45" fill="#00ff41" opacity="0.15">ﾒ</text>
+<text y="155" fill="#00ff41" opacity="0.22">ﾈ</text><text y="-25" fill="#00ff41" opacity="0.22">ﾈ</text>
+<text y="175" fill="#00ff41" opacity="0.32">ｷ</text><text y="-5" fill="#00ff41" opacity="0.32">ｷ</text>
+</g></g>
+</g>
+<rect x="130" y="26" width="940" height="128" rx="5" fill="#020804" opacity=".87"/>
+<rect width="1200" height="180" rx="5" fill="url(#scan)"/>
+<path d="M18 40V18H40 M1160 18H1182V40 M18 140V162H40 M1160 162H1182V140" fill="none" stroke="#00ff41" stroke-width="2.5"/>
+<g text-anchor="middle" font-family="monospace">
+<text x="600" y="52" font-size="15" letter-spacing="5" fill="#00ff41">[ SESSION CLOSED ]</text>
+<text class="motion" x="600" y="98" font-size="43" font-weight="bold" letter-spacing="4" fill="#00ff41" filter="url(#glow)" opacity=".7">CONNECTION TERMINATED<animate attributeName="opacity" values=".3;.95;.3" dur="4s" repeatCount="indefinite"/></text>
+<text x="600" y="98" font-size="43" font-weight="bold" letter-spacing="4" fill="#8aff9f">CONNECTION TERMINATED</text>
+<text x="590" y="130" font-size="16" letter-spacing="3" fill="#00ff41">KALILCYBER // END OF TRANSMISSION</text>
+<rect class="motion" x="875" y="117" width="9" height="15" fill="#8aff9f"><animate attributeName="opacity" values="1;0;1" keyTimes="0;.5;1" calcMode="discrete" dur="1.4s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
