@@ -1,0 +1,41 @@
+
+name: Ghost Protocol
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ghost-protocol
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python3 scripts/generate_ghost.py --user "$GITHUB_USER"
+
+      - name: Publish animation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/ghost-protocol.svg
+          if git diff --cached --quiet; then
+            echo 'No changes to publish.'
+            exit 0
+          fi
+          git commit -m 'chore: update Ghost Protocol animation'
+          git push
