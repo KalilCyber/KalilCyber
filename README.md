@@ -2,7 +2,7 @@
 <!-- KALILCYBER | CYBERSECURITY PROFILE -->
 
 <div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/KalilCyber/KalilCyber/main/assets/matrix-header.svg" alt="KALILCYBER Matrix Header"/>
+<img width="100%" src="assets/matrix-header.svg" alt="KALILCYBER Matrix Header"/>
 <a href="https://github.com/KalilCyber">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Initializing+System...;Access+Granted;Cybersecurity+Student;Ethical+Hacking+Enthusiast;Think+Like+An+Attacker;Defend+Like+An+Engineer" alt="Typing SVG"/>
 </a>
