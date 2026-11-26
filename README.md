@@ -176,6 +176,6 @@ Session closed.
 See you in the cyberspace. █
 ```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=footer"/>
+<img width="100%" src="assets/matrix-footer.svg" alt="Matrix Shutdown - Connection Terminated"/>
 
 </div>
