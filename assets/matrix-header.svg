@@ -1,1 +1,94 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+
+  <defs>
+    <radialGradient id="background">
+      <stop offset="0%" stop-color="#10371a"/>
+      <stop offset="100%" stop-color="#020804"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="rain" width="150" height="180" patternUnits="userSpaceOnUse">
+      <g font-family="monospace" font-size="18" fill="#00FF41">
+        <text x="10" y="20" opacity=".6">ﾊ</text>
+        <text x="10" y="43" opacity=".4">0</text>
+        <text x="10" y="66" opacity=".3">ﾐ</text>
+        <text x="10" y="89" opacity=".2">1</text>
+        <text x="10" y="112" opacity=".1">ﾈ</text>
+
+        <text x="40" y="55" opacity=".2">1</text>
+        <text x="40" y="78" opacity=".3">ｼ</text>
+        <text x="40" y="101" opacity=".5">0</text>
+        <text x="40" y="124" opacity=".7">ﾃ</text>
+        <text x="40" y="147" opacity=".2">ﾘ</text>
+
+        <text x="70" y="20" opacity=".3">ﾒ</text>
+        <text x="70" y="43" opacity=".6">1</text>
+        <text x="70" y="66" opacity=".4">ｶ</text>
+        <text x="70" y="89" opacity=".2">0</text>
+
+        <text x="100" y="85" opacity=".2">ﾈ</text>
+        <text x="100" y="108" opacity=".3">0</text>
+        <text x="100" y="131" opacity=".5">ﾐ</text>
+        <text x="100" y="154" opacity=".7">1</text>
+
+        <text x="130" y="25" opacity=".6">ｶ</text>
+        <text x="130" y="48" opacity=".4">ﾘ</text>
+        <text x="130" y="71" opacity=".2">1</text>
+        <text x="130" y="94" opacity=".1">0</text>
+      </g>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" fill="url(#background)"/>
+
+  <rect width="1200" height="330" fill="url(#rain)"/>
+
+  <rect x="95" y="72" width="1010" height="186"
+        rx="5" fill="#020804" opacity=".85"/>
+
+  <g fill="none" stroke="#00FF41" stroke-width="3">
+    <path d="M18 52 V18 H52"/>
+    <path d="M1148 18 H1182 V52"/>
+    <path d="M18 278 V312 H52"/>
+    <path d="M1148 312 H1182 V278"/>
+  </g>
+
+  <text x="600" y="115"
+        font-family="monospace"
+        font-size="20"
+        letter-spacing="7"
+        text-anchor="middle"
+        fill="#00FF41">
+    [ SYSTEM ONLINE ]
+  </text>
+
+  <text x="600" y="200"
+        font-family="monospace"
+        font-size="88"
+        font-weight="bold"
+        letter-spacing="12"
+        text-anchor="middle"
+        fill="#8AFF9F"
+        filter="url(#glow)">
+    KALILCYBER
+  </text>
+
+  <text x="600" y="237"
+        font-family="monospace"
+        font-size="18"
+        letter-spacing="4"
+        text-anchor="middle"
+        fill="#00FF41">
+    CYBERSECURITY // SOC // BLUE TEAM // RED TEAM
+  </text>
+
+</svg>
+
