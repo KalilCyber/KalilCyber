@@ -124,6 +124,19 @@ inventory, vulnerability management and risk analysis.
 
 ---
 
+## > ./ghost_protocol.sh
+
+<div align="center">
+
+<img width="100%" src="assets/ghost-protocol.svg" alt="Ghost Protocol - Cybernetic Contribution Network"/>
+
+`[ GHOST_AGENT_01 // NETWORK SCAN ACTIVE ]`
+
+</div>
+
+---
+
+
 ## > ./github_stats.sh
 
 <div align="center">
